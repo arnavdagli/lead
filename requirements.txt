@@ -1,0 +1,6 @@
+# CSRT tracking lives in the contrib build (cv2.TrackerCSRT_create /
+# cv2.legacy.TrackerCSRT_create are not present in plain opencv-python).
+# opencv-contrib-python is a drop-in replacement providing the same
+# `cv2` module plus these tracking APIs, so it's used here instead.
+opencv-contrib-python
+numpy
